@@ -6,6 +6,8 @@ A professional Telegram bot for security analysis of IP addresses, URLs, and dom
 
 VirusTotal Checker Bot is a powerful cybersecurity analysis tool that enables users to check IP addresses, URLs, and domains through integration with the VirusTotal API. The bot provides detailed reports on reputation and threats, helping assess the security of network resources.
 
+BOT BY: [GitHub](https://github.com/arhkypGitProject/ArkhypDanylov-Portfolio)
+
 ## Key Features
 
 - **IP Analysis** — Check IP addresses for threats and suspicious activity
@@ -112,7 +114,5 @@ Contributions are welcome. Please follow these steps:
 For issues, questions, or suggestions:
 - Open an issue on GitHub
 - Check the project documentation
-
----
 
 **Disclaimer**: This bot utilizes the VirusTotal API. Users must comply with VirusTotal's terms of service and usage policies. The developer is not responsible for misuse of this tool!
