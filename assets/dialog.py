@@ -8,3 +8,6 @@ class URLScan(StatesGroup):
 
 class DOMAINScan(StatesGroup):
     waiting_for_domain = State()
+
+class FILEScan(StatesGroup):
+    waiting_for_file = State()
