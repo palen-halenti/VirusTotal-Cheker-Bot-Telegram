@@ -64,6 +64,7 @@ python main.py
 - **IP SCAN** — Analyze IP addresses for security threats
 - **URL CHECK** — Scan URLs for malicious content
 - **DOMAIN CHECK** — Verify domain security and reputation
+- **FILE CHECK** — Check your files for viruses!
 
 ### How It Works
 
